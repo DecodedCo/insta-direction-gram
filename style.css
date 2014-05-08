@@ -1,0 +1,79 @@
+/* Background */
+body {
+  background: url(http://3.bp.blogspot.com/-g8oLkumk1f0/UdoxXZ06AlI/AAAAAAAADpQ/RXmFw408YcI/s1600/singapore_city_skyline.jpg);
+  background-size:cover; /* Scales background image while maintaining aspect ratio */
+  background-position:center;
+} /* End of body */
+
+/* Container Section */
+section {
+  background-color: rgba(255,254,13,0.9);
+  width:90%; /* Limits width of section to 90% of body */
+  margin: auto; /* Puts section in center */
+  margin-top: 20px; /* Adds margin at top */
+  padding: 20px; /* Adds space inside section */
+  text-align: center;
+  border-radius: 10px; /* Soft edges */
+	font-family: 'Roboto Condensed', sans-serif;
+} /*End of section */
+
+/* Main Heading */
+h1 {
+	font-size: 350%;
+  border-bottom:1px solid;
+  padding-bottom:16px;
+} /* End of h1 */
+
+/* Paragraph text */
+p {
+	font-size: 120%;
+} /* End of p */
+
+/* Paragraph text */
+p#message {
+	font-size: 100%;
+} /* End of p */
+
+
+/* Input Field */
+input {
+	width:60%;
+  padding: 5px;
+  border-radius:5px; /* Rounded corners */
+  text-align: center;
+  color: black;
+  border: none; /* Removes border */
+} /* End of input */
+
+.images {
+  height:500px;
+  overflow:scroll;
+}
+
+.step {
+  padding-bottom:28px;
+}
+
+/* Responsive Design for large screen */
+@media(min-width:700px){
+
+  section {
+		width: 40%;
+  }
+
+  h1 {
+		font-size:300%;
+	} /* End of h1 */
+
+  p {
+    font-size:120%;
+  }
+
+} /* End of @ Media */
+
+
+
+
+
+
+
